@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background: #E77A6F;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h3 {
+    font-weight: normal;
+}
+
+h1 {
+    margin: 40px 0;
+    font-size: 38px;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 30px;
+}
+
+.size-18 {
+    font-size: 18px;
+}
+
+.color-white {
+    color: #fff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 40px 20px;
+    color: #494949;
+    width: 33%;
+    margin: 0 10px;
+}
+
+.pricing {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.pricing_wrap {
+    display: flex;
+    align-items: flex-end;
+    margin: 0 10px;
+}
+
+.pricing_wrap-option {
+    color: #F1B4AE;
+    margin: 20px 0;
+}
+
+.pricing_wrap-option:last-child {
+    margin-bottom: 0;
+}
+
+.pricing_wrap-price {
+    color: #494949;
+}
+
+.btn_wrap {
+    margin: 20px;
+}
+
+.btn {
+	border: solid 1px #b73948;
+	background: #da5867;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f16c7c), to(#bf404f));
+	background: -moz-linear-gradient(top,  #f16c7c,  #bf404f);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f16c7c', endColorstr='#bf404f');
+    -webkit-box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.38);
+    -moz-box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.38);
+    box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.38);
+    cursor: pointer;
+    width: 100%;
+    line-height: 40px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn:hover {
+    background: #ba4b58;
+	background: -webkit-gradient(linear, left top, left bottom, from(#cf5d6a), to(#a53845));
+	background: -moz-linear-gradient(top,  #cf5d6a,  #a53845);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#cf5d6a', endColorstr='#a53845');
+}
+
+.btn.disabled {
+    cursor: no-drop;
+    background: #ce7373;
+    -webkit-box-shadow: inset 0px 2px 3px 0px rgba(0,0,0,0.38);
+    -moz-box-shadow: inset 0px 2px 3px 0px rgba(0,0,0,0.38);
+    box-shadow: inset 0px 2px 3px 0px rgba(0,0,0,0.38);
+    border: none;
+    border-bottom: 1px solid #F1B4AE;
+}
+
+.btn.disabled:hover {
+    background: #ce7373;
+}
+
+.btn span {
+    padding-right: 12px;
+}
+
+.pricing-text {
+    margin-bottom: 20px;
+}
